@@ -1,0 +1,21 @@
+@import url(../header/style.css);
+@import url(../main/style.css);
+@import url(../navbar/style.css);
+@import url(../footer/style.css);
+@import url(../aside/style.css);
+@import url(../div/style.css);
+@import url(../hero/style.css);
+@import url(../wrapper/style.css);
+@import url(../under/style.css);
+@import url(../items/style.css);
+.index{
+    margin-top: 150px;
+    color: #fff;
+    text-align: center;
+    .index_h3{
+        h3{
+            font-size: 34px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}

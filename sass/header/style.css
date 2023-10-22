@@ -1,0 +1,61 @@
+.header {
+  margin-top: 70px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.header .header_h3 h3 {
+  font-size: 24px;
+}
+.header .header_text h3 {
+  font-size: 40px;
+}
+.header .header_text p {
+  font-size: 16px;
+}
+
+@media (min-width: 769px) and (max-width: 989px) {
+  .header .header_h3 {
+    text-align: center;
+  }
+  .header .header_h3 h3 {
+    font-size: 20px;
+  }
+  .header .header_text h3 {
+    font-size: 35px;
+  }
+  .header .header_text p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 447px) and (max-width: 768px) {
+  .header .header_h3 {
+    text-align: center;
+  }
+  .header .header_h3 h3 {
+    font-size: 15px;
+  }
+  .header .header_text h3 {
+    font-size: 28px;
+  }
+  .header .header_text p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 446px) {
+  .header {
+    padding: 0px 20px;
+  }
+  .header .header_h3 {
+    text-align: center;
+  }
+  .header .header_h3 h3 {
+    font-size: 16px;
+  }
+  .header .header_text h3 {
+    font-size: 35px;
+  }
+  .header .header_text p {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */

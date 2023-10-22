@@ -1,0 +1,214 @@
+body {
+  background-color: #1F2E35;
+}
+
+.navbar {
+  font-family: "Poppin s", sans-serif;
+  padding: 0px 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navbar_logo {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 0 10px;
+}
+.navbar .navbar_logo h3 {
+  font-size: 30px;
+}
+.navbar .nav_ul {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+.navbar .nav_ul .navbar_ul {
+  display: flex;
+  list-style: none;
+  gap: 0 30px;
+}
+.navbar .nav_ul .navbar_ul .item {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+.navbar .nav_ul .navbar_ul span {
+  color: #fff;
+  display: none;
+}
+.navbar .nav_ul .img {
+  border: none;
+  background-color: #fff;
+  border-radius: 100px;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+.navbar .nav_ul .btn {
+  color: #fff;
+  background-color: #1F2E35;
+  width: 100px;
+  height: 45px;
+  font-size: 16px;
+  border: #BCD0E5 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.navbar .nav_ul .btn1 {
+  color: #fff;
+  background-color: #02897A;
+  width: 100px;
+  border: none;
+  height: 45px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.navbar .nav_ul .btn:hover {
+  background-color: #fff;
+  color: #02897A;
+}
+.navbar .nav_ul .btn1:hover {
+  background-color: #1F2E35;
+  border: #fff 1px solid;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+  }
+  .navbar .navbar_logo h3 {
+    font-size: 25px;
+  }
+  .navbar .nav_ul .navbar_ul span {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 989px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .navbar .navbar_logo img {
+    width: 30px;
+  }
+  .navbar .navbar_logo h3 {
+    font-size: 20px;
+  }
+  .navbar .nav_ul .navbar_ul .item {
+    font-size: 12px;
+  }
+  .navbar .nav_ul .navbar_ul span {
+    display: none;
+  }
+  .navbar .nav_ul .btn {
+    font-size: 12px;
+    width: 75px;
+    height: 35px;
+  }
+  .navbar .nav_ul .btn1 {
+    font-size: 12px;
+    width: 75px;
+    height: 35px;
+  }
+  .navbar .nav_ul .img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 447px) and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  .navbar .navbar_logo img {
+    width: 30px;
+  }
+  .navbar .navbar_logo h3 {
+    font-size: 20px;
+  }
+  .navbar .nav_ul {
+    gap: 0 10px;
+  }
+  .navbar .nav_ul .navbar_ul {
+    gap: 0 15px;
+  }
+  .navbar .nav_ul .navbar_ul .item {
+    font-size: 12px;
+    display: none;
+  }
+  .navbar .nav_ul .navbar_ul span {
+    color: #fff;
+    display: block;
+  }
+  .navbar .nav_ul .btn {
+    font-size: 12px;
+    width: 70px;
+    height: 30px;
+    display: none;
+  }
+  .navbar .nav_ul .btn1 {
+    font-size: 12px;
+    width: 70px;
+    height: 30px;
+    display: none;
+  }
+  .navbar .nav_ul .img {
+    width: 25px;
+    display: none;
+    height: 25px;
+  }
+}
+@media (max-width: 446px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+  }
+  .navbar .navbar_logo img {
+    width: 40px;
+  }
+  .navbar .navbar_logo h3 {
+    font-size: 30px;
+  }
+  .navbar .nav_ul {
+    gap: 0 10px;
+  }
+  .navbar .nav_ul .navbar_ul {
+    gap: 0 15px;
+  }
+  .navbar .nav_ul .navbar_ul .item {
+    font-size: 12px;
+    display: none;
+  }
+  .navbar .nav_ul .navbar_ul span {
+    color: #fff;
+    display: block;
+  }
+  .navbar .nav_ul .btn {
+    font-size: 12px;
+    width: 70px;
+    display: none;
+    height: 30px;
+  }
+  .navbar .nav_ul .btn1 {
+    font-size: 12px;
+    width: 70px;
+    height: 30px;
+    display: none;
+  }
+  .navbar .nav_ul .img {
+    width: 25px;
+    display: none;
+    height: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */
